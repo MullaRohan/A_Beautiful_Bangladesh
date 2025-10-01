@@ -8,6 +8,10 @@
     font-family: "Fira Sans Condensed", sans-serif;
 }
 
+body {
+    background-color: rgba(213, 214, 216, 1);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -24,14 +28,15 @@ nav {
     letter-spacing: 0%;
     text-align: left;
 }
-.btn-container{
+
+.btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.btn{
+
+.btn {
     color: rgb(0, 106, 80);
-    font-family: Fira Sans;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
@@ -42,4 +47,194 @@ nav {
     border-radius: 8px;
     padding: 5px 15px;
     cursor: pointer;
+}
+
+/* banner styles  */
+
+.banner {
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    gap: 24px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.banner-text {
+    width: 620px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.banner-des {
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.banner-btn {
+    width: 270px;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+
+.img-container {
+    margin: 35px;
+}
+
+/* pillar section styles  */
+.pillars {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 24px;
+    gap: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card {
+    width: 320px;
+    height: 244px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.card-head {
+    margin-top: 10px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-des {
+    margin-top: 10px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* vision styles */
+.vision {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: auto;
+}
+
+.vision-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.vision-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.vcard-container {
+    display: flex;
+    gap: 24px;
+}
+
+.vcard {
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+}
+
+.vcard-title {
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.vcard-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.vcard-btn {
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.speech {
+    width: 1280px;
+    padding: 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+.speech-des {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.speech-person {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.speech-pos {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
