@@ -7,7 +7,16 @@
     padding: 0;
     font-family: "Fira Sans Condensed", sans-serif;
 }
-.bold{
+
+.news-default {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* body styles */
+
+.bold {
     font-weight: bold;
 }
 
@@ -15,6 +24,8 @@ body {
     background-color: rgba(213, 214, 216, 1);
 }
 
+
+/* navbar styles */
 nav {
     display: flex;
     align-items: center;
@@ -251,6 +262,7 @@ nav {
     margin: auto;
     margin-top: 80px;
 }
+
 .table-wrapper {
     padding: 32px;
     border-radius: 16px;
@@ -286,7 +298,62 @@ nav {
 }
 
 /* section styles */
-.news{
+.news {
     max-width: 1280px;
     margin: auto;
+}
+
+.news-head-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.news-head-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.news-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.news-card {
+    display: flex;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 1);
+    padding: 48px;
+    gap: 32px;
+}
+
+.news-card-img {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.news-card-info {
+    width: 744px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.news-card-btn {
+    width: 139px;
+    height: 48px;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 33px;
 }
