@@ -7,6 +7,9 @@
     padding: 0;
     font-family: "Fira Sans Condensed", sans-serif;
 }
+.bold{
+    font-weight: bold;
+}
 
 body {
     background-color: rgba(213, 214, 216, 1);
@@ -248,20 +251,36 @@ nav {
     margin: auto;
     margin-top: 80px;
 }
-
-.opinion-table {
+.table-wrapper {
     padding: 32px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 1);
+    background: #fff;
     margin-bottom: 80px;
 }
 
-.opinion-table-head {
-    width: 1216px;
-    padding: 24px;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+.opinion-table {
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.opinion-table th,
+.opinion-table td {
+    padding: 16px 24px;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    text-align: left;
+}
+
+.opinion-table-head th {
     background: rgba(198, 228, 214, 1);
-    align-items: center;
+}
+
+.opinion-option {
+    width: 152px;
+    height: 44px;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 1);
+    border-radius: 4px;
+    background: rgba(198, 228, 214, 1);
 }
