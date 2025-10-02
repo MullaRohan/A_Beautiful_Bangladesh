@@ -29,7 +29,6 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 20px;
     background: rgb(245, 245, 245);
 }
@@ -40,13 +39,16 @@ nav {
     font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: left;
+    /* text-align: left; */
+    margin-left: 160px;
 }
 
 .btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: 160px;
 }
 
 .btn {
@@ -111,6 +113,8 @@ nav {
     border-radius: 8px;
     background: rgba(0, 106, 80, 1);
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .img-container {
@@ -129,14 +133,14 @@ nav {
     gap: 20px;
 }
 
-.card-container {
+.pillar-card-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 24px;
 }
 
-.card {
+.pillar-card {
     width: 320px;
     height: 244px;
     padding: 24px;
@@ -144,16 +148,21 @@ nav {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 
-.card-head {
+.pillar-card:hover {
+    background: rgba(198, 228, 214, 1);
+}
+
+.pillar-card-head {
     margin-top: 10px;
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
 }
 
-.card-des {
+.pillar-card-des {
     margin-top: 10px;
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
@@ -220,6 +229,8 @@ nav {
     border-radius: 8px;
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .speech {
@@ -379,7 +390,7 @@ nav {
     margin-bottom: 24px;
 }
 
-.card-container {
+.donate-card-container {
     display: flex;
     gap: 24px;
     /* justify-content: space-around; */
@@ -387,7 +398,7 @@ nav {
     margin-bottom: 32px;
 }
 
-.card {
+.donate-card {
     width: 243px;
     height: 128px;
     padding: 40px;
@@ -395,12 +406,16 @@ nav {
     font-size: 40px;
     font-weight: 700;
     border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 16px;
     cursor: pointer;
     white-space: nowrap;
 }
 
-.card:hover {
+.donate-card:hover {
     background: rgba(198, 228, 214, 1);
 }
 
@@ -426,5 +441,83 @@ nav {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* subscribe styles */
+
+.subscribe {
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+}
+
+.sub-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.sub-des {
+    margin-bottom: 24px;
+}
+
+.sub-card {
+    max-width: 750px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.sub-mail {
+    width: 600px;
+    height: 55px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+    text-align: left;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.sub-btn {
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    padding: 17px 34px 17px 34px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* footer styles */
+
+.footer {
+    max-width: 1280px;
+    height: 226px;
+    margin: auto;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+    border-radius: 8px 8px 8px 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img-container {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    margin-top: 20px;
     cursor: pointer;
 }
