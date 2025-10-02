@@ -238,3 +238,30 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* opinion styles */
+.opinion {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.opinion-table {
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 80px;
+}
+
+.opinion-table-head {
+    width: 1216px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+    align-items: center;
+}
