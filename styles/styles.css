@@ -301,6 +301,7 @@ nav {
 .news {
     max-width: 1280px;
     margin: auto;
+    margin-bottom: 80px;
 }
 
 .news-head-title {
@@ -356,4 +357,74 @@ nav {
     font-weight: 600;
     cursor: pointer;
     margin-top: 33px;
+}
+
+/* donate section styles  */
+.donate {
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.donate-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.donate-des {
+    margin: auto 88px;
+    margin-bottom: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.card {
+    width: 243px;
+    height: 128px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.card:hover {
+    background: rgba(198, 228, 214, 1);
+}
+
+.donate-taka {
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 1);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.donate-btn {
+    width: 151px;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgba(0, 106, 80, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
